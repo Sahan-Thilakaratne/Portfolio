@@ -7,6 +7,8 @@ import {
   servicesSliderProps,
   testimonialsSliderProps,
 } from "../src/sliderProps";
+
+
 const PortfolioIsotope = dynamic(
   () => import("../src/components/PortfolioIsotope"),
   {
@@ -47,13 +49,13 @@ const Index = () => {
                   </h1>
                   <div className="label lui-subtitle">
                     {" "}
-                    I am a<strong>Software Developer</strong>
+                    {/*I am a<strong>Associate Software Developer</strong>*/}
                   </div>
                 </div>
                 <div className="description">
                   <div>
                     <p>
-                    As a final-year Software Engineering undergraduate at SLIIT and a Associate Software Developer at Ventura Groups, I'm driven and ambitious.
+                    As a final-year Software Engineering undergraduate at SLIIT (awaiting formal graduation) and a Associate Software Developer at Ventura Groups, I'm driven and ambitious.
                     My passion for the tech industry and my
                     desire to become a tech lead has been a steady source of motivation for me.
                     I always seek ways to perform at my best and achieve greatness.
@@ -89,7 +91,7 @@ const Index = () => {
                 className="slide scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <img
+                <img 
                   decoding="async"
                   src="assets/images/profile.jpeg"
                   alt="<b>Zoé</b> Miller"
@@ -117,14 +119,14 @@ const Index = () => {
                   <ul>
                     <li>
                       <span className="num">
-                        12 <strong>+</strong>
+                        2 <strong>+</strong>
                       </span>
                       <span className="value">
                         Years of <strong>Experience</strong>
                       </span>
                     </li>
                     <li>
-                      <span className="num">330</span>
+                      <span className="num">10</span>
                       <span className="value">
                         Completed <strong>Projects</strong>
                       </span>
