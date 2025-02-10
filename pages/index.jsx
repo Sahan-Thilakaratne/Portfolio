@@ -62,7 +62,7 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="social-links">
-                    <a target="_blank" rel="nofollow" href="#">
+                  {/*  <a target="_blank" rel="nofollow" href="#">
                       <i aria-hidden="true" className="fab fa-twitter" />
                     </a>
                     <a target="_blank" rel="nofollow" href="#">
@@ -70,7 +70,14 @@ const Index = () => {
                     </a>
                     <a target="_blank" rel="nofollow" href="#">
                       <i aria-hidden="true" className="fab fa-behance" />
-                    </a>
+                    </a> */}
+
+                    <img 
+                      decoding="async"
+                      src="assets/images/icons8-linkedin-30.png"
+                      alt="LinkedIn"
+                    />
+
                   </div>
                 </div>
                 <div className="bts">
@@ -572,7 +579,7 @@ const Index = () => {
                       <span> Address </span>
                     </div>
                     <div className="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
+                      <span> Kiribathgoda </span>
                     </div>
                   </div>
                   <div
@@ -583,7 +590,7 @@ const Index = () => {
                       <i aria-hidden="true" className="far fa-user" />
                     </div>
                     <div className="title">
-                      <span> Freelance </span>
+                      <span> Software development </span>
                     </div>
                     <div className="lui-text">
                       <span> Available Right Now </span>
@@ -600,7 +607,7 @@ const Index = () => {
                       <span> Email </span>
                     </div>
                     <div className="lui-text">
-                      <span> zoe.miller@mydomain.com </span>
+                      <span> sahanpradeeptha@gmail.com </span>
                     </div>
                   </div>
                   <div
@@ -614,7 +621,7 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                      <span> +1 900 - 900 - 9000 </span>
+                      <span> +94 771 965 642 </span>
                     </div>
                   </div>
                 </div>
@@ -667,7 +674,7 @@ const Index = () => {
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
                           <div className="terms-label">
-                            * Accept the terms and conditions.
+                            {/** Accept the terms and conditions. */}
                           </div>
                           <a
                             href="#"
