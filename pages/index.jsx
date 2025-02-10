@@ -179,159 +179,89 @@ const Index = () => {
         </div>
         {/* Services */}
         <div className="v-line v-line-right">
-          <div className="container">
-            <Swiper
-              {...servicesSliderProps}
-              className="swiper-container js-services scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
-                    <span> Web Development </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> Any kind of Web Applications </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      {" "}
-                      Crafting next-gen ERP level web applications with the latest, cutting-edge technologies—tailored for tomorrow’s business needs.{" "}
+              <div className="container">
+                <Swiper
+                  {...servicesSliderProps}
+                  className="swiper-container js-services scrolla-element-anim-1 scroll-animate"
+                  data-animate="active"
+                >
+                  <SwiperSlide className="swiper-slide">
+                    <div className="services-item">
+                      <div className="lui-subtitle">
+                        <span> Web Development </span>
+                      </div>
+                      <div className="icon" />
+                      <h5 className="lui-title">
+                        <span> Any kind of Web Applications </span>
+                      </h5>
+                      <div className="lui-text">
+                        <div>
+                          Crafting next-gen ERP level web applications with the latest, cutting-edge technologies—tailored for tomorrow’s business needs.
+                        </div>
+                      </div>
+                      <a href="#pricing-section" className="lnk"> See Pricing </a>
+                      <div
+                        className="image"
+                        style={{
+                          backgroundImage: "url(assets/images/pat-2.png)",
+                        }}
+                      />
                     </div>
-                  </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
-                    <span> Apps Development </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> Standalone Applications </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      <p>
-                      Designing powerful desktop applications with delivering performance
-                      </p>
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="services-item">
+                      <div className="lui-subtitle">
+                        <span> Apps Development </span>
+                      </div>
+                      <div className="icon" />
+                      <h5 className="lui-title">
+                        <span> Standalone Applications </span>
+                      </h5>
+                      <div className="lui-text">
+                        <div>
+                          <p>Designing powerful desktop applications with delivering performance</p>
+                        </div>
+                      </div>
+                      <a href="#pricing-section" className="lnk"> See Pricing </a>
+                      <div
+                        className="image"
+                        style={{
+                          backgroundImage: "url(assets/images/pat-2.png)",
+                        }}
+                      />
                     </div>
-                  </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
-                    <span> Database Designing </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> Relational Databases </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      {" "}
-                      Crafting relational database architectures with precision—transforming complex data into intuitive ER diagrams that power efficient systems.{" "}
+                  </SwiperSlide>
+                  <SwiperSlide className="swiper-slide">
+                    <div className="services-item">
+                      <div className="lui-subtitle">
+                        <span> Database Designing </span>
+                      </div>
+                      <div className="icon" />
+                      <h5 className="lui-title">
+                        <span> Relational Databases </span>
+                      </h5>
+                      <div className="lui-text">
+                        <div>
+                          Crafting relational database architectures with precision—transforming complex data into intuitive ER diagrams that power efficient systems.
+                        </div>
+                      </div>
+                      <a href="#pricing-section" className="lnk"> See Pricing </a>
+                      <div
+                        className="image"
+                        style={{
+                          backgroundImage: "url(assets/images/pat-2.png)",
+                        }}
+                      />
                     </div>
-                  </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
+                  </SwiperSlide>
+                  <div className="swiper-pagination" />
+                </Swiper>
+                <div className="lui-bgtitle">
+                  <span> Services </span>
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
-                    <span> Advertising </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> Google Ads </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      {" "}
-                      Advertising services include: Google search result pages,
-                      gmails, YouTube and other websites participated in Google
-                      Ads program.{" "}
-                    </div>
-                  </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
-                    <span> Music Writing </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> Sound Track </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      <p>
-                        Music copying, writing, creating, transcription and
-                        composition services.
-                      </p>
-                    </div>
-                  </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
-              <div className="swiper-pagination" />
-            </Swiper>
-            <div className="lui-bgtitle">
-              <span> Services </span>
+              </div>
             </div>
-          </div>
-        </div>
+
       </section>
       {/* Section - Skills */}
       <section className="lui-section lui-gradient-center" id="skills-section">
